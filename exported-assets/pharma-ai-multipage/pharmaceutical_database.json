@@ -1,0 +1,392 @@
+{
+  "medicines": [
+    {
+      "name": "Paracetamol",
+      "generic_name": "Acetaminophen",
+      "strengths": [
+        "500mg",
+        "325mg",
+        "650mg"
+      ],
+      "forms": [
+        "tablet",
+        "capsule",
+        "syrup"
+      ],
+      "colors": [
+        "white",
+        "off-white"
+      ],
+      "shapes": [
+        "round",
+        "oval",
+        "caplet"
+      ],
+      "markings": [
+        "P500",
+        "TYLENOL",
+        "325"
+      ],
+      "manufacturers": [
+        "Johnson & Johnson",
+        "GSK",
+        "Teva"
+      ],
+      "indications": [
+        "Pain relief",
+        "Fever reduction"
+      ],
+      "side_effects": [
+        "Rare: liver damage with overdose"
+      ],
+      "storage": "Room temperature, dry place"
+    },
+    {
+      "name": "Aspirin",
+      "generic_name": "Acetylsalicylic Acid",
+      "strengths": [
+        "81mg",
+        "325mg",
+        "500mg"
+      ],
+      "forms": [
+        "tablet",
+        "chewable tablet",
+        "enteric-coated"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "pink"
+      ],
+      "shapes": [
+        "round",
+        "oval"
+      ],
+      "markings": [
+        "ASP",
+        "BAYER",
+        "81",
+        "325"
+      ],
+      "manufacturers": [
+        "Bayer",
+        "CVS",
+        "Walgreens"
+      ],
+      "indications": [
+        "Pain relief",
+        "Anti-inflammatory",
+        "Blood thinner"
+      ],
+      "side_effects": [
+        "Stomach irritation",
+        "Bleeding risk"
+      ],
+      "storage": "Room temperature, dry place"
+    },
+    {
+      "name": "Ibuprofen",
+      "generic_name": "Ibuprofen",
+      "strengths": [
+        "200mg",
+        "400mg",
+        "600mg",
+        "800mg"
+      ],
+      "forms": [
+        "tablet",
+        "capsule",
+        "liquid gel"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "white",
+        "red"
+      ],
+      "shapes": [
+        "round",
+        "oval",
+        "caplet"
+      ],
+      "markings": [
+        "IBU",
+        "ADVIL",
+        "200",
+        "400"
+      ],
+      "manufacturers": [
+        "Pfizer",
+        "GSK",
+        "Teva"
+      ],
+      "indications": [
+        "Pain relief",
+        "Anti-inflammatory",
+        "Fever reduction"
+      ],
+      "side_effects": [
+        "Stomach upset",
+        "Kidney issues with long-term use"
+      ],
+      "storage": "Room temperature, dry place"
+    },
+    {
+      "name": "Amoxicillin",
+      "generic_name": "Amoxicillin",
+      "strengths": [
+        "250mg",
+        "500mg",
+        "875mg"
+      ],
+      "forms": [
+        "capsule",
+        "tablet",
+        "suspension"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "yellow"
+      ],
+      "shapes": [
+        "capsule",
+        "oval"
+      ],
+      "markings": [
+        "AMOX",
+        "250",
+        "500",
+        "WC731"
+      ],
+      "manufacturers": [
+        "Teva",
+        "Sandoz",
+        "Aurobindo"
+      ],
+      "indications": [
+        "Bacterial infections",
+        "Respiratory infections"
+      ],
+      "side_effects": [
+        "Diarrhea",
+        "Nausea",
+        "Allergic reactions"
+      ],
+      "storage": "Room temperature, complete course"
+    },
+    {
+      "name": "Metformin",
+      "generic_name": "Metformin Hydrochloride",
+      "strengths": [
+        "500mg",
+        "850mg",
+        "1000mg"
+      ],
+      "forms": [
+        "tablet",
+        "extended-release"
+      ],
+      "colors": [
+        "white",
+        "yellow"
+      ],
+      "shapes": [
+        "round",
+        "oval"
+      ],
+      "markings": [
+        "MET",
+        "500",
+        "850",
+        "GLUCOPHAGE"
+      ],
+      "manufacturers": [
+        "Bristol Myers Squibb",
+        "Teva",
+        "Mylan"
+      ],
+      "indications": [
+        "Type 2 diabetes",
+        "Blood sugar control"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhea",
+        "Lactic acidosis (rare)"
+      ],
+      "storage": "Room temperature, with meals"
+    },
+    {
+      "name": "Lisinopril",
+      "generic_name": "Lisinopril",
+      "strengths": [
+        "2.5mg",
+        "5mg",
+        "10mg",
+        "20mg"
+      ],
+      "forms": [
+        "tablet"
+      ],
+      "colors": [
+        "white",
+        "pink",
+        "red"
+      ],
+      "shapes": [
+        "round",
+        "shield"
+      ],
+      "markings": [
+        "LIS",
+        "2.5",
+        "5",
+        "10",
+        "20"
+      ],
+      "manufacturers": [
+        "Lupin",
+        "Prinivil",
+        "Zestril"
+      ],
+      "indications": [
+        "High blood pressure",
+        "Heart failure"
+      ],
+      "side_effects": [
+        "Dry cough",
+        "Dizziness",
+        "Hyperkalemia"
+      ],
+      "storage": "Room temperature, dry place"
+    },
+    {
+      "name": "Atorvastatin",
+      "generic_name": "Atorvastatin Calcium",
+      "strengths": [
+        "10mg",
+        "20mg",
+        "40mg",
+        "80mg"
+      ],
+      "forms": [
+        "tablet"
+      ],
+      "colors": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "shapes": [
+        "round",
+        "oval"
+      ],
+      "markings": [
+        "LIPITOR",
+        "10",
+        "20",
+        "40",
+        "PD155"
+      ],
+      "manufacturers": [
+        "Pfizer",
+        "Ranbaxy",
+        "Watson"
+      ],
+      "indications": [
+        "High cholesterol",
+        "Cardiovascular disease prevention"
+      ],
+      "side_effects": [
+        "Muscle pain",
+        "Liver enzyme elevation"
+      ],
+      "storage": "Room temperature, away from moisture"
+    },
+    {
+      "name": "Omeprazole",
+      "generic_name": "Omeprazole",
+      "strengths": [
+        "20mg",
+        "40mg"
+      ],
+      "forms": [
+        "delayed-release capsule"
+      ],
+      "colors": [
+        "purple/yellow",
+        "purple/pink"
+      ],
+      "shapes": [
+        "capsule"
+      ],
+      "markings": [
+        "PRILOSEC",
+        "20",
+        "40"
+      ],
+      "manufacturers": [
+        "AstraZeneca",
+        "Sandoz",
+        "Dr. Reddy's"
+      ],
+      "indications": [
+        "GERD",
+        "Acid reflux",
+        "Stomach ulcers"
+      ],
+      "side_effects": [
+        "Headache",
+        "Nausea",
+        "Long-term: B12 deficiency"
+      ],
+      "storage": "Room temperature, swallow whole"
+    }
+  ],
+  "counterfeit_indicators": [
+    "Unusual packaging colors or fonts",
+    "Misspelled words on packaging",
+    "Different pill color than expected",
+    "Wrong pill shape or size",
+    "Missing or incorrect imprint codes",
+    "Unusual taste or smell",
+    "Packaging without proper seals",
+    "Price significantly lower than usual",
+    "Unknown or suspicious supplier",
+    "Missing batch numbers or expiry dates"
+  ],
+  "verification_techniques": [
+    {
+      "method": "Visual Inspection",
+      "accuracy": 85,
+      "description": "Check pill color, shape, markings, and packaging"
+    },
+    {
+      "method": "Spectroscopy",
+      "accuracy": 98,
+      "description": "Chemical composition analysis"
+    },
+    {
+      "method": "Chromatography",
+      "accuracy": 97,
+      "description": "Separate and identify chemical components"
+    },
+    {
+      "method": "AI Image Recognition",
+      "accuracy": 92,
+      "description": "Computer vision analysis of medicine characteristics"
+    },
+    {
+      "method": "Barcode Verification",
+      "accuracy": 95,
+      "description": "Verify product codes against databases"
+    },
+    {
+      "method": "Packaging Authentication",
+      "accuracy": 88,
+      "description": "Verify security features and packaging integrity"
+    }
+  ]
+}

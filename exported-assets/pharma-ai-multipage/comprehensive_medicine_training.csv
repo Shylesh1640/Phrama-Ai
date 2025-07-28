@@ -1,0 +1,395 @@
+medicine_name,generic_name,strength,form,color,shape,marking,manufacturer,authenticity_confidence,verification_status,image_edge_count,image_color_variance,image_text_clarity,image_shape_regularity,storage_temp,humidity_max
+Paracetamol,Acetaminophen,500mg,tablet,white,round,325,GSK,98.29,authentic,167,0.304,0.841,0.96,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,tablet,white,oval,325,Johnson & Johnson,93.13,authentic,69,0.404,0.729,0.978,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,tablet,white,caplet,TYLENOL,GSK,90.42,authentic,97,0.432,0.914,0.868,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,tablet,off-white,round,P500,Johnson & Johnson,92.43,authentic,137,0.358,0.845,0.831,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,tablet,off-white,oval,TYLENOL,GSK,88.88,authentic,118,0.425,0.769,0.855,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,tablet,off-white,caplet,TYLENOL,GSK,85.79,authentic,77,0.1,0.737,0.827,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,white,round,P500,GSK,92.7,authentic,179,0.207,0.939,0.895,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,white,oval,P500,GSK,88.81,authentic,159,0.467,0.954,0.919,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,white,caplet,P500,Johnson & Johnson,96.44,authentic,118,0.434,0.864,0.807,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,off-white,round,325,Teva,97.59,authentic,103,0.457,0.802,0.882,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,off-white,oval,325,Teva,96.65,authentic,77,0.462,0.762,0.826,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,capsule,off-white,caplet,P500,GSK,89.91,authentic,114,0.352,0.821,0.938,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,white,round,P500,Teva,94.67,authentic,158,0.352,0.881,0.999,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,white,oval,TYLENOL,Teva,87.96,authentic,173,0.23,0.883,0.807,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,white,caplet,325,Johnson & Johnson,86.89,authentic,178,0.196,0.752,0.843,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,off-white,round,TYLENOL,Johnson & Johnson,87.98,authentic,163,0.361,0.853,0.999,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,off-white,oval,325,Johnson & Johnson,98.45,authentic,156,0.358,0.898,0.935,20-25°C,60%
+Paracetamol,Acetaminophen,500mg,syrup,off-white,caplet,P500,GSK,88.73,authentic,144,0.29,0.882,0.915,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,white,round,TYLENOL,Johnson & Johnson,94.32,authentic,106,0.4,0.702,0.999,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,white,oval,325,GSK,88.79,authentic,50,0.488,0.746,0.886,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,white,caplet,TYLENOL,Johnson & Johnson,88.37,authentic,66,0.276,0.879,0.958,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,off-white,round,325,GSK,85.09,authentic,177,0.105,0.914,0.87,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,off-white,oval,P500,GSK,94.56,authentic,118,0.161,0.79,0.918,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,tablet,off-white,caplet,TYLENOL,GSK,95.91,authentic,102,0.315,0.881,0.941,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,white,round,TYLENOL,Teva,88.69,authentic,69,0.155,0.879,0.918,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,white,oval,TYLENOL,Johnson & Johnson,97.61,authentic,156,0.355,0.911,0.927,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,white,caplet,P500,GSK,95.35,authentic,189,0.114,0.861,0.865,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,off-white,round,325,Johnson & Johnson,86.77,authentic,137,0.255,0.995,0.829,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,off-white,oval,325,Johnson & Johnson,90.38,authentic,147,0.222,0.884,0.905,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,capsule,off-white,caplet,325,Teva,97.41,authentic,118,0.446,0.978,0.96,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,white,round,TYLENOL,Teva,89.35,authentic,70,0.196,0.733,0.83,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,white,oval,325,Teva,92.56,authentic,108,0.36,0.885,0.852,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,white,caplet,P500,Johnson & Johnson,93.39,authentic,67,0.121,0.99,0.891,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,off-white,round,TYLENOL,Johnson & Johnson,95.82,authentic,56,0.309,0.861,0.958,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,off-white,oval,TYLENOL,GSK,96.79,authentic,192,0.115,0.85,0.896,20-25°C,60%
+Paracetamol,Acetaminophen,325mg,syrup,off-white,caplet,P500,Johnson & Johnson,90.59,authentic,50,0.438,0.876,0.945,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,white,round,P500,Johnson & Johnson,86.91,authentic,122,0.335,0.876,0.872,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,white,oval,P500,Johnson & Johnson,86.45,authentic,105,0.29,0.782,0.941,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,white,caplet,TYLENOL,GSK,98.42,authentic,128,0.246,0.868,0.938,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,off-white,round,P500,GSK,89.39,authentic,187,0.299,0.808,0.991,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,off-white,oval,TYLENOL,Teva,92.51,authentic,155,0.362,0.94,0.835,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,tablet,off-white,caplet,TYLENOL,Teva,95.11,authentic,82,0.109,0.803,0.997,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,white,round,325,Teva,91.2,authentic,72,0.119,0.972,0.955,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,white,oval,P500,Johnson & Johnson,97.84,authentic,123,0.467,0.724,0.882,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,white,caplet,P500,Teva,91.22,authentic,182,0.206,0.782,0.94,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,off-white,round,TYLENOL,Johnson & Johnson,88.33,authentic,77,0.369,0.729,0.94,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,off-white,oval,P500,GSK,93.72,authentic,142,0.384,0.994,0.938,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,off-white,caplet,P500,GSK,86.23,authentic,134,0.413,0.84,0.884,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,white,round,325,GSK,90.99,authentic,169,0.227,0.982,0.971,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,white,oval,P500,Teva,97.97,authentic,167,0.132,0.887,0.977,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,white,caplet,P500,Teva,94.21,authentic,104,0.386,0.752,0.825,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,off-white,round,325,Johnson & Johnson,93.1,authentic,190,0.474,0.777,0.975,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,off-white,oval,P500,Teva,90.7,authentic,147,0.377,0.734,0.864,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,syrup,off-white,caplet,TYLENOL,Teva,91.86,authentic,133,0.292,0.92,0.846,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,white,round,81,Bayer,94.93,authentic,162,0.207,0.771,0.884,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,white,oval,81,CVS,86.03,authentic,80,0.248,0.868,0.96,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,yellow,round,325,Bayer,97.49,authentic,53,0.275,0.707,0.931,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,yellow,oval,325,CVS,95.18,authentic,175,0.248,0.829,0.908,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,pink,round,BAYER,CVS,94.02,authentic,184,0.411,0.967,0.833,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,tablet,pink,oval,BAYER,Bayer,88.51,authentic,133,0.201,0.753,0.934,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,white,round,ASP,Bayer,86.29,authentic,161,0.202,0.726,0.88,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,white,oval,ASP,Walgreens,90.61,authentic,143,0.146,0.777,0.92,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,yellow,round,ASP,Walgreens,94.67,authentic,186,0.262,0.733,0.856,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,yellow,oval,81,Bayer,89.12,authentic,182,0.294,0.773,0.849,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,pink,round,325,Walgreens,93.05,authentic,165,0.294,0.909,0.824,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,chewable tablet,pink,oval,325,Walgreens,97.9,authentic,78,0.222,0.756,0.903,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,white,round,81,Walgreens,92.78,authentic,74,0.225,0.771,0.814,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,white,oval,ASP,Walgreens,94.1,authentic,156,0.196,0.978,0.894,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,yellow,round,ASP,Bayer,86.52,authentic,182,0.379,0.944,0.959,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,yellow,oval,ASP,Bayer,85.57,authentic,128,0.32,0.84,0.802,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,pink,round,ASP,Bayer,86.16,authentic,67,0.118,0.703,0.989,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,81mg,enteric-coated,pink,oval,81,CVS,93.26,authentic,51,0.311,0.954,0.952,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,white,round,BAYER,Walgreens,88.86,authentic,101,0.289,0.816,0.929,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,white,oval,325,CVS,92.52,authentic,189,0.399,0.859,0.837,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,yellow,round,ASP,Walgreens,85.33,authentic,90,0.129,0.847,0.864,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,yellow,oval,BAYER,CVS,87.38,authentic,173,0.316,0.912,0.958,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,pink,round,BAYER,Bayer,85.55,authentic,134,0.177,0.873,0.831,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,tablet,pink,oval,81,CVS,89.75,authentic,61,0.305,0.97,0.989,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,white,round,325,Bayer,95.29,authentic,157,0.248,0.804,0.994,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,white,oval,ASP,CVS,86.67,authentic,163,0.196,0.826,0.866,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,yellow,round,ASP,CVS,93.57,authentic,51,0.156,0.784,0.877,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,yellow,oval,325,Walgreens,89.03,authentic,123,0.422,0.885,0.855,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,pink,round,ASP,Bayer,89.87,authentic,113,0.209,0.876,0.894,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,pink,oval,325,CVS,98.66,authentic,52,0.486,0.902,0.937,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,white,round,325,CVS,97.66,authentic,102,0.196,0.929,0.977,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,white,oval,325,CVS,86.92,authentic,139,0.327,0.825,0.852,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,yellow,round,BAYER,Bayer,92.92,authentic,167,0.314,0.986,0.81,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,yellow,oval,ASP,CVS,96.3,authentic,182,0.222,0.754,0.832,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,pink,round,ASP,Walgreens,90.01,authentic,141,0.287,0.96,0.86,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,325mg,enteric-coated,pink,oval,ASP,CVS,98.4,authentic,79,0.427,0.952,0.95,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,white,round,325,CVS,95.84,authentic,117,0.152,0.857,0.985,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,white,oval,BAYER,CVS,89.8,authentic,80,0.278,0.831,0.863,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,yellow,round,BAYER,Walgreens,90.43,authentic,157,0.353,0.775,0.935,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,yellow,oval,325,CVS,91.58,authentic,192,0.155,0.897,0.99,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,pink,round,ASP,Walgreens,95.19,authentic,60,0.382,0.721,0.834,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,tablet,pink,oval,ASP,Walgreens,95.18,authentic,126,0.49,0.931,0.917,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,white,round,BAYER,Walgreens,94.37,authentic,89,0.348,0.748,0.818,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,white,oval,ASP,Walgreens,95.05,authentic,56,0.291,0.829,0.919,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,yellow,round,ASP,CVS,86.09,authentic,84,0.144,0.769,0.819,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,yellow,oval,ASP,Walgreens,93.08,authentic,194,0.293,0.939,0.964,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,pink,round,BAYER,Walgreens,90.94,authentic,51,0.404,0.803,0.966,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,chewable tablet,pink,oval,325,Bayer,96.49,authentic,55,0.469,0.993,0.809,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,white,round,BAYER,Walgreens,90.04,authentic,172,0.222,0.885,0.898,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,white,oval,325,CVS,93.72,authentic,164,0.214,0.953,0.948,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,yellow,round,81,Walgreens,94.92,authentic,127,0.41,0.821,0.941,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,yellow,oval,ASP,Bayer,93.32,authentic,171,0.297,0.796,0.998,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,pink,round,BAYER,CVS,95.15,authentic,94,0.463,0.893,0.816,20-25°C,60%
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,pink,oval,BAYER,Walgreens,88.51,authentic,62,0.351,0.791,0.807,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,brown,round,IBU,Teva,88.87,authentic,109,0.32,0.977,0.92,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,brown,oval,400,Pfizer,86.6,authentic,50,0.2,0.866,0.959,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,brown,caplet,IBU,Teva,97.55,authentic,103,0.446,0.932,0.849,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,orange,round,ADVIL,Pfizer,89.85,authentic,143,0.159,0.734,0.911,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,orange,oval,400,Teva,89.17,authentic,94,0.107,0.778,0.846,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,orange,caplet,200,GSK,95.3,authentic,157,0.23,0.866,0.882,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,white,round,ADVIL,Pfizer,98.01,authentic,125,0.277,0.926,0.894,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,white,oval,200,Pfizer,85.42,authentic,89,0.456,0.768,0.804,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,white,caplet,200,Teva,98.7,authentic,83,0.418,0.909,0.891,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,red,round,IBU,Teva,90.67,authentic,54,0.33,0.702,0.847,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,red,oval,IBU,GSK,86.33,authentic,164,0.14,0.945,0.803,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,tablet,red,caplet,ADVIL,Pfizer,93.35,authentic,72,0.291,0.9,0.876,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,brown,round,IBU,Teva,90.49,authentic,120,0.485,0.873,0.859,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,brown,oval,ADVIL,GSK,95.11,authentic,55,0.258,0.752,0.942,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,brown,caplet,IBU,Teva,89.41,authentic,156,0.465,0.993,0.955,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,orange,round,200,Teva,95.32,authentic,121,0.393,0.804,0.978,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,orange,oval,400,GSK,95.07,authentic,120,0.444,0.965,0.802,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,orange,caplet,ADVIL,Pfizer,98.73,authentic,190,0.397,0.811,0.911,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,white,round,200,Pfizer,91.36,authentic,197,0.492,0.863,0.97,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,white,oval,IBU,Pfizer,97.15,authentic,57,0.205,0.947,0.875,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,white,caplet,200,GSK,85.38,authentic,155,0.414,0.902,0.818,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,red,round,ADVIL,GSK,85.04,authentic,120,0.226,0.9,0.873,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,red,oval,200,Pfizer,92.85,authentic,190,0.236,0.854,0.999,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,capsule,red,caplet,200,Teva,87.77,authentic,146,0.272,0.829,0.89,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,brown,round,IBU,GSK,91.51,authentic,97,0.349,0.933,0.912,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,brown,oval,ADVIL,Pfizer,98.73,authentic,134,0.23,0.731,0.838,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,brown,caplet,IBU,Teva,96.5,authentic,167,0.32,0.969,0.86,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,orange,round,400,Teva,95.52,authentic,192,0.319,0.976,0.908,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,orange,oval,ADVIL,Teva,87.64,authentic,188,0.331,0.812,0.947,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,orange,caplet,ADVIL,GSK,90.44,authentic,150,0.145,0.714,0.84,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,white,round,400,Pfizer,95.42,authentic,144,0.121,0.817,0.899,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,white,oval,200,Teva,88.78,authentic,108,0.39,0.826,0.972,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,white,caplet,200,GSK,95.08,authentic,135,0.439,0.749,0.824,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,red,round,ADVIL,Pfizer,90.81,authentic,175,0.128,0.919,0.951,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,red,oval,400,GSK,91.89,authentic,104,0.135,0.951,0.836,20-25°C,60%
+Ibuprofen,Ibuprofen,200mg,liquid gel,red,caplet,IBU,Pfizer,92.0,authentic,190,0.278,0.989,0.857,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,brown,round,200,GSK,89.13,authentic,68,0.34,0.762,0.948,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,brown,oval,400,Pfizer,85.98,authentic,195,0.349,0.859,0.93,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,brown,caplet,200,Teva,94.11,authentic,57,0.324,0.824,0.889,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,orange,round,400,Teva,86.57,authentic,153,0.446,0.812,0.803,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,orange,oval,ADVIL,Pfizer,95.73,authentic,168,0.46,0.95,0.952,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,orange,caplet,IBU,Pfizer,94.99,authentic,128,0.464,0.827,0.947,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,white,round,200,GSK,95.47,authentic,138,0.203,0.723,0.809,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,white,oval,200,GSK,93.16,authentic,188,0.436,0.973,0.94,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,white,caplet,ADVIL,Teva,90.19,authentic,85,0.197,0.996,0.907,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,red,round,IBU,Pfizer,98.93,authentic,154,0.42,0.819,0.82,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,red,oval,400,GSK,89.77,authentic,55,0.234,0.864,0.864,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,tablet,red,caplet,200,Pfizer,98.77,authentic,81,0.154,0.807,0.883,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,brown,round,400,Teva,98.11,authentic,65,0.432,0.965,0.955,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,brown,oval,400,Pfizer,94.37,authentic,185,0.186,0.707,0.825,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,brown,caplet,IBU,GSK,87.41,authentic,116,0.295,0.894,0.949,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,orange,round,400,GSK,96.32,authentic,125,0.443,0.867,0.805,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,orange,oval,200,Pfizer,93.49,authentic,106,0.191,0.845,0.983,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,orange,caplet,200,Pfizer,92.44,authentic,167,0.413,0.839,0.842,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,white,round,IBU,Teva,88.07,authentic,63,0.279,0.737,0.894,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,white,oval,200,Teva,90.75,authentic,193,0.461,0.886,0.917,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,white,caplet,ADVIL,Pfizer,97.49,authentic,179,0.257,0.734,0.906,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,red,round,200,Teva,93.43,authentic,112,0.199,0.992,0.95,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,red,oval,ADVIL,Pfizer,89.52,authentic,146,0.22,0.788,0.809,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,capsule,red,caplet,ADVIL,Teva,91.8,authentic,83,0.122,0.884,0.882,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,brown,round,400,GSK,92.9,authentic,174,0.283,0.915,0.806,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,brown,oval,ADVIL,Teva,86.23,authentic,179,0.167,0.782,0.859,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,brown,caplet,IBU,GSK,92.82,authentic,73,0.363,0.808,0.964,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,orange,round,IBU,Pfizer,88.78,authentic,86,0.444,0.72,0.898,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,orange,oval,200,Pfizer,86.93,authentic,79,0.254,0.787,0.894,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,orange,caplet,400,Pfizer,90.19,authentic,117,0.382,0.931,0.907,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,white,round,IBU,GSK,94.36,authentic,96,0.145,0.734,0.983,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,white,oval,ADVIL,Teva,94.18,authentic,52,0.425,0.923,0.945,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,white,caplet,ADVIL,Teva,87.3,authentic,86,0.453,0.863,0.897,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,red,round,IBU,Pfizer,86.32,authentic,68,0.375,0.809,0.929,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,red,oval,IBU,GSK,98.13,authentic,141,0.342,0.8,0.911,20-25°C,60%
+Ibuprofen,Ibuprofen,400mg,liquid gel,red,caplet,400,GSK,93.51,authentic,161,0.336,0.927,0.918,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,brown,round,400,Teva,96.29,authentic,135,0.253,0.782,0.825,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,brown,oval,400,GSK,86.58,authentic,83,0.271,0.993,0.858,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,brown,caplet,IBU,Teva,92.36,authentic,94,0.271,0.961,0.932,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,orange,round,IBU,Teva,94.76,authentic,145,0.435,0.82,0.95,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,orange,oval,ADVIL,GSK,94.79,authentic,54,0.192,0.914,0.858,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,orange,caplet,ADVIL,GSK,90.34,authentic,105,0.187,0.868,0.803,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,white,round,200,GSK,90.64,authentic,179,0.219,0.783,0.866,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,white,oval,IBU,GSK,90.72,authentic,142,0.277,0.899,0.947,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,white,caplet,400,GSK,96.56,authentic,72,0.176,0.841,0.966,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,red,round,IBU,Pfizer,93.81,authentic,145,0.245,0.906,0.906,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,red,oval,200,GSK,98.59,authentic,132,0.379,0.863,0.873,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,tablet,red,caplet,ADVIL,Pfizer,86.01,authentic,131,0.306,0.913,0.991,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,brown,round,IBU,Pfizer,91.06,authentic,170,0.329,0.896,0.821,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,brown,oval,400,GSK,85.49,authentic,148,0.329,0.769,0.834,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,brown,caplet,400,GSK,97.77,authentic,171,0.421,0.935,0.891,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,orange,round,200,GSK,91.48,authentic,197,0.485,0.916,0.884,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,orange,oval,400,Pfizer,97.14,authentic,70,0.459,0.965,0.937,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,orange,caplet,400,GSK,96.53,authentic,94,0.349,0.891,0.824,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,white,round,200,GSK,88.89,authentic,97,0.234,0.89,0.834,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,white,oval,IBU,Teva,87.8,authentic,200,0.292,0.781,0.909,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,white,caplet,400,GSK,94.37,authentic,116,0.484,0.851,0.982,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,red,round,IBU,GSK,85.31,authentic,181,0.361,0.988,0.875,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,red,oval,200,Pfizer,91.89,authentic,141,0.147,0.866,0.94,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,capsule,red,caplet,IBU,Teva,89.8,authentic,110,0.34,0.805,0.993,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,brown,round,200,Teva,91.54,authentic,57,0.421,0.768,0.886,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,brown,oval,400,Pfizer,95.95,authentic,79,0.323,0.844,0.898,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,brown,caplet,200,Pfizer,94.73,authentic,125,0.414,0.968,0.846,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,orange,round,ADVIL,Teva,92.09,authentic,80,0.21,0.702,0.945,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,orange,oval,ADVIL,Teva,90.03,authentic,158,0.217,0.816,0.901,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,orange,caplet,IBU,Pfizer,90.9,authentic,94,0.313,0.962,0.873,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,white,round,IBU,Pfizer,94.66,authentic,102,0.31,0.767,0.887,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,white,oval,200,GSK,96.95,authentic,157,0.321,0.99,0.869,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,white,caplet,IBU,Pfizer,98.77,authentic,192,0.215,0.921,0.97,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,red,round,ADVIL,Pfizer,90.92,authentic,95,0.317,0.904,0.897,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,red,oval,IBU,Teva,92.13,authentic,132,0.211,0.923,0.91,20-25°C,60%
+Ibuprofen,Ibuprofen,600mg,liquid gel,red,caplet,200,Teva,90.91,authentic,98,0.374,0.954,0.803,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,brown,round,200,GSK,96.63,authentic,185,0.169,0.781,0.864,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,brown,oval,ADVIL,Pfizer,87.55,authentic,146,0.386,0.874,0.966,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,brown,caplet,IBU,GSK,86.59,authentic,163,0.393,0.801,0.983,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,orange,round,400,Teva,95.71,authentic,145,0.194,0.737,0.943,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,orange,oval,IBU,Teva,85.32,authentic,192,0.46,0.773,0.917,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,orange,caplet,ADVIL,GSK,97.15,authentic,55,0.186,0.789,0.818,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,white,round,400,Pfizer,93.46,authentic,154,0.45,0.719,0.954,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,white,oval,200,GSK,98.94,authentic,121,0.462,0.87,0.953,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,white,caplet,400,Pfizer,96.99,authentic,132,0.106,0.829,0.972,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,red,round,200,GSK,93.66,authentic,188,0.314,0.971,0.866,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,red,oval,IBU,Teva,87.91,authentic,83,0.196,0.826,0.856,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,tablet,red,caplet,IBU,Pfizer,98.05,authentic,57,0.173,0.965,0.903,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,brown,round,200,Teva,87.13,authentic,66,0.471,0.926,0.908,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,brown,oval,IBU,Pfizer,85.93,authentic,133,0.165,0.922,0.995,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,brown,caplet,ADVIL,GSK,94.49,authentic,129,0.272,0.9,0.92,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,orange,round,200,GSK,89.47,authentic,73,0.145,0.876,0.845,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,orange,oval,ADVIL,GSK,92.13,authentic,60,0.321,0.753,0.902,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,orange,caplet,IBU,Pfizer,87.52,authentic,137,0.2,0.792,0.83,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,white,round,IBU,GSK,96.13,authentic,167,0.102,0.791,0.945,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,white,oval,ADVIL,GSK,89.71,authentic,163,0.132,0.76,0.829,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,white,caplet,IBU,Teva,91.14,authentic,135,0.237,0.962,0.952,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,red,round,400,Teva,89.67,authentic,190,0.333,0.955,0.862,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,red,oval,IBU,GSK,96.05,authentic,149,0.154,0.799,0.917,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,capsule,red,caplet,ADVIL,GSK,97.9,authentic,117,0.327,0.874,0.895,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,brown,round,400,GSK,93.44,authentic,50,0.48,0.988,0.898,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,brown,oval,200,Pfizer,96.68,authentic,100,0.186,0.841,0.907,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,brown,caplet,200,GSK,92.6,authentic,81,0.119,0.797,0.877,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,orange,round,ADVIL,Teva,88.76,authentic,191,0.332,0.708,0.95,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,orange,oval,IBU,Pfizer,92.95,authentic,98,0.289,0.753,0.837,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,orange,caplet,IBU,GSK,92.15,authentic,99,0.494,0.714,0.955,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,white,round,200,GSK,85.17,authentic,92,0.237,0.719,0.828,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,white,oval,400,GSK,94.32,authentic,192,0.463,0.706,0.993,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,white,caplet,IBU,GSK,93.18,authentic,115,0.215,0.98,0.898,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,red,round,ADVIL,Pfizer,85.21,authentic,111,0.148,0.814,0.979,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,red,oval,400,Teva,95.12,authentic,71,0.308,0.989,0.81,20-25°C,60%
+Ibuprofen,Ibuprofen,800mg,liquid gel,red,caplet,400,Pfizer,85.18,authentic,129,0.351,0.826,0.917,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,pink,capsule,AMOX,Aurobindo,85.04,authentic,166,0.438,0.825,0.819,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,pink,oval,250,Teva,97.18,authentic,158,0.428,0.968,0.818,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,white,capsule,AMOX,Aurobindo,85.37,authentic,194,0.292,0.925,0.881,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,white,oval,500,Sandoz,90.07,authentic,173,0.248,0.97,0.922,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,yellow,capsule,WC731,Sandoz,92.89,authentic,63,0.263,0.74,0.887,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,capsule,yellow,oval,250,Aurobindo,95.05,authentic,162,0.102,0.977,0.857,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,pink,capsule,AMOX,Aurobindo,96.59,authentic,65,0.188,0.877,0.88,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,pink,oval,WC731,Aurobindo,91.28,authentic,86,0.257,0.71,0.819,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,white,capsule,500,Aurobindo,85.37,authentic,77,0.481,0.891,0.82,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,white,oval,250,Teva,98.47,authentic,183,0.417,0.831,0.876,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,yellow,capsule,250,Sandoz,96.42,authentic,165,0.191,0.908,0.83,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,tablet,yellow,oval,WC731,Aurobindo,97.88,authentic,61,0.26,0.797,0.96,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,pink,capsule,250,Aurobindo,90.57,authentic,155,0.126,0.933,0.902,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,pink,oval,250,Aurobindo,96.21,authentic,67,0.201,0.707,0.917,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,white,capsule,WC731,Sandoz,98.77,authentic,197,0.184,0.724,0.835,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,white,oval,250,Sandoz,97.01,authentic,161,0.319,0.732,0.988,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,yellow,capsule,250,Aurobindo,94.96,authentic,50,0.262,0.971,0.924,20-25°C,60%
+Amoxicillin,Amoxicillin,250mg,suspension,yellow,oval,500,Aurobindo,87.7,authentic,84,0.291,0.956,0.886,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,pink,capsule,AMOX,Teva,98.0,authentic,58,0.251,0.821,0.965,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,pink,oval,500,Sandoz,96.62,authentic,66,0.147,0.926,0.963,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,white,capsule,250,Aurobindo,95.17,authentic,95,0.227,0.88,0.924,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,white,oval,WC731,Teva,92.4,authentic,117,0.279,0.972,0.834,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,yellow,capsule,WC731,Sandoz,89.13,authentic,70,0.208,0.759,0.903,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,capsule,yellow,oval,500,Sandoz,97.52,authentic,146,0.148,0.974,0.877,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,pink,capsule,500,Aurobindo,88.0,authentic,87,0.297,0.845,0.886,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,pink,oval,250,Aurobindo,95.8,authentic,163,0.179,0.963,0.934,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,white,capsule,AMOX,Teva,92.99,authentic,140,0.484,0.801,0.969,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,white,oval,WC731,Teva,92.91,authentic,82,0.459,0.869,0.894,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,yellow,capsule,500,Sandoz,94.64,authentic,103,0.435,0.728,0.897,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,tablet,yellow,oval,AMOX,Aurobindo,98.7,authentic,71,0.383,0.934,0.874,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,pink,capsule,WC731,Sandoz,96.6,authentic,165,0.27,0.771,0.892,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,pink,oval,WC731,Aurobindo,97.62,authentic,127,0.452,0.771,0.849,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,white,capsule,250,Teva,92.11,authentic,179,0.453,0.919,0.864,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,white,oval,250,Sandoz,96.99,authentic,139,0.288,0.942,0.927,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,yellow,capsule,250,Aurobindo,95.43,authentic,198,0.101,0.851,0.809,20-25°C,60%
+Amoxicillin,Amoxicillin,500mg,suspension,yellow,oval,500,Teva,89.77,authentic,147,0.355,0.893,0.852,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,pink,capsule,500,Teva,87.28,authentic,142,0.469,0.779,0.866,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,pink,oval,WC731,Aurobindo,98.54,authentic,69,0.224,0.993,0.857,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,white,capsule,250,Sandoz,98.29,authentic,199,0.276,0.893,0.834,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,white,oval,WC731,Aurobindo,85.26,authentic,56,0.277,0.972,0.81,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,yellow,capsule,250,Aurobindo,93.51,authentic,125,0.122,0.765,0.843,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,capsule,yellow,oval,AMOX,Sandoz,90.25,authentic,125,0.283,0.786,0.826,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,pink,capsule,500,Teva,95.98,authentic,199,0.139,0.941,0.987,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,pink,oval,250,Teva,94.61,authentic,107,0.397,0.704,0.991,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,white,capsule,500,Sandoz,88.32,authentic,154,0.485,0.939,0.88,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,white,oval,AMOX,Sandoz,87.88,authentic,145,0.284,0.768,0.98,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,yellow,capsule,WC731,Sandoz,91.06,authentic,81,0.294,0.995,0.961,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,tablet,yellow,oval,250,Sandoz,87.91,authentic,53,0.273,0.968,0.851,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,pink,capsule,250,Sandoz,92.61,authentic,85,0.319,0.862,0.982,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,pink,oval,WC731,Aurobindo,86.5,authentic,186,0.433,0.898,0.986,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,white,capsule,WC731,Teva,88.91,authentic,135,0.219,0.75,0.995,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,white,oval,250,Teva,92.27,authentic,63,0.188,0.911,0.84,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,yellow,capsule,500,Teva,89.67,authentic,140,0.453,0.757,0.912,20-25°C,60%
+Amoxicillin,Amoxicillin,875mg,suspension,yellow,oval,500,Sandoz,92.25,authentic,109,0.291,0.931,0.973,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,tablet,white,round,GLUCOPHAGE,Mylan,90.6,authentic,167,0.481,0.995,0.873,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,tablet,white,oval,500,Mylan,98.58,authentic,143,0.196,0.741,0.886,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,tablet,yellow,round,GLUCOPHAGE,Teva,98.57,authentic,110,0.348,0.723,0.959,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,tablet,yellow,oval,MET,Teva,87.23,authentic,164,0.292,0.851,0.915,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,extended-release,white,round,500,Bristol Myers Squibb,95.37,authentic,126,0.329,0.719,0.833,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,extended-release,white,oval,850,Bristol Myers Squibb,96.6,authentic,150,0.198,0.731,0.937,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,extended-release,yellow,round,MET,Mylan,92.53,authentic,109,0.453,0.702,0.88,20-25°C,60%
+Metformin,Metformin Hydrochloride,500mg,extended-release,yellow,oval,850,Teva,93.48,authentic,169,0.225,0.701,0.894,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,tablet,white,round,500,Teva,89.8,authentic,73,0.314,0.874,0.841,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,tablet,white,oval,500,Teva,94.34,authentic,140,0.437,0.978,0.856,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,tablet,yellow,round,850,Bristol Myers Squibb,89.71,authentic,54,0.497,0.753,0.908,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,tablet,yellow,oval,MET,Mylan,85.42,authentic,101,0.32,0.788,0.923,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,extended-release,white,round,850,Bristol Myers Squibb,98.17,authentic,145,0.255,0.813,0.832,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,extended-release,white,oval,MET,Teva,90.46,authentic,120,0.15,0.942,0.971,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,extended-release,yellow,round,MET,Bristol Myers Squibb,85.56,authentic,66,0.116,0.75,0.945,20-25°C,60%
+Metformin,Metformin Hydrochloride,850mg,extended-release,yellow,oval,GLUCOPHAGE,Mylan,97.71,authentic,158,0.494,0.858,0.858,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,tablet,white,round,GLUCOPHAGE,Bristol Myers Squibb,89.25,authentic,127,0.31,0.833,0.961,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,tablet,white,oval,500,Mylan,96.94,authentic,153,0.497,0.77,0.907,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,tablet,yellow,round,MET,Bristol Myers Squibb,95.25,authentic,73,0.169,0.848,0.861,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,tablet,yellow,oval,500,Bristol Myers Squibb,89.62,authentic,155,0.154,0.832,0.984,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,extended-release,white,round,MET,Mylan,98.4,authentic,144,0.243,0.945,0.993,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,extended-release,white,oval,500,Teva,93.54,authentic,89,0.26,0.72,0.908,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,extended-release,yellow,round,MET,Mylan,85.62,authentic,62,0.218,0.865,0.995,20-25°C,60%
+Metformin,Metformin Hydrochloride,1000mg,extended-release,yellow,oval,MET,Bristol Myers Squibb,86.66,authentic,134,0.263,0.998,0.834,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,white,round,2.5,Lupin,87.62,authentic,153,0.404,0.759,0.801,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,white,shield,5,Prinivil,98.56,authentic,103,0.19,0.98,0.818,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,pink,round,LIS,Prinivil,88.77,authentic,172,0.146,0.885,0.962,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,pink,shield,2.5,Prinivil,93.05,authentic,96,0.167,0.862,0.897,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,red,round,20,Zestril,98.32,authentic,70,0.324,0.745,0.885,20-25°C,60%
+Lisinopril,Lisinopril,2.5mg,tablet,red,shield,2.5,Prinivil,96.29,authentic,92,0.206,0.952,0.897,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,white,round,10,Prinivil,98.89,authentic,81,0.274,0.915,0.913,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,white,shield,LIS,Lupin,87.62,authentic,186,0.173,0.877,0.891,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,pink,round,2.5,Lupin,87.67,authentic,146,0.187,0.947,0.851,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,pink,shield,LIS,Prinivil,86.72,authentic,61,0.405,0.949,0.965,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,red,round,5,Zestril,94.53,authentic,56,0.252,0.879,0.925,20-25°C,60%
+Lisinopril,Lisinopril,5mg,tablet,red,shield,5,Prinivil,94.07,authentic,133,0.371,0.887,0.962,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,white,round,10,Zestril,86.27,authentic,187,0.277,0.814,0.941,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,white,shield,10,Prinivil,85.71,authentic,91,0.447,0.936,0.86,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,pink,round,LIS,Zestril,86.58,authentic,141,0.245,0.889,0.966,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,pink,shield,LIS,Zestril,85.46,authentic,109,0.311,0.718,0.975,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,red,round,5,Zestril,88.85,authentic,127,0.254,0.82,0.803,20-25°C,60%
+Lisinopril,Lisinopril,10mg,tablet,red,shield,5,Prinivil,95.15,authentic,114,0.128,0.714,0.849,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,white,round,10,Prinivil,97.4,authentic,68,0.109,0.895,0.862,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,white,shield,5,Prinivil,98.25,authentic,195,0.462,0.731,0.982,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,pink,round,5,Zestril,86.52,authentic,160,0.368,0.741,0.858,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,pink,shield,LIS,Prinivil,89.2,authentic,146,0.281,0.839,0.936,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,red,round,10,Prinivil,87.68,authentic,77,0.459,0.921,0.94,20-25°C,60%
+Lisinopril,Lisinopril,20mg,tablet,red,shield,LIS,Prinivil,90.89,authentic,129,0.414,0.719,0.8,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,white,round,40,Pfizer,88.71,authentic,63,0.371,0.84,0.878,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,white,oval,LIPITOR,Ranbaxy,96.21,authentic,107,0.118,0.947,0.987,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,blue,round,20,Ranbaxy,85.15,authentic,134,0.39,0.882,0.825,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,blue,oval,10,Watson,95.11,authentic,165,0.245,0.989,0.994,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,yellow,round,PD155,Watson,89.61,authentic,192,0.256,0.721,0.839,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,10mg,tablet,yellow,oval,40,Watson,88.0,authentic,128,0.205,0.887,0.853,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,white,round,LIPITOR,Watson,94.17,authentic,195,0.184,0.928,0.894,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,white,oval,40,Ranbaxy,85.2,authentic,85,0.168,0.909,0.993,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,blue,round,40,Ranbaxy,93.83,authentic,116,0.246,0.751,0.943,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,blue,oval,20,Watson,88.25,authentic,163,0.205,0.858,0.881,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,yellow,round,40,Pfizer,93.7,authentic,182,0.37,0.972,0.917,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,20mg,tablet,yellow,oval,20,Watson,98.45,authentic,147,0.384,0.956,0.901,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,white,round,10,Ranbaxy,89.98,authentic,134,0.487,0.993,0.935,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,white,oval,40,Ranbaxy,98.43,authentic,151,0.106,0.954,0.985,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,blue,round,LIPITOR,Watson,95.52,authentic,95,0.494,0.814,0.945,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,blue,oval,40,Watson,95.82,authentic,134,0.479,0.946,0.815,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,yellow,round,20,Watson,97.77,authentic,144,0.168,0.991,0.868,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,40mg,tablet,yellow,oval,40,Ranbaxy,92.71,authentic,144,0.331,0.787,0.818,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,white,round,LIPITOR,Ranbaxy,94.34,authentic,64,0.352,0.952,0.98,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,white,oval,40,Watson,87.01,authentic,56,0.476,0.762,0.823,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,blue,round,10,Ranbaxy,93.97,authentic,189,0.219,0.915,0.846,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,blue,oval,40,Watson,97.3,authentic,92,0.171,0.995,0.913,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,yellow,round,LIPITOR,Watson,93.1,authentic,124,0.296,0.912,0.941,20-25°C,60%
+Atorvastatin,Atorvastatin Calcium,80mg,tablet,yellow,oval,20,Watson,85.68,authentic,121,0.258,0.909,0.805,20-25°C,60%
+Omeprazole,Omeprazole,20mg,delayed-release capsule,purple/yellow,capsule,40,AstraZeneca,86.97,authentic,162,0.305,0.83,0.805,20-25°C,60%
+Omeprazole,Omeprazole,20mg,delayed-release capsule,purple/pink,capsule,40,Sandoz,87.33,authentic,98,0.119,0.977,0.959,20-25°C,60%
+Omeprazole,Omeprazole,40mg,delayed-release capsule,purple/yellow,capsule,20,Dr. Reddy's,85.71,authentic,186,0.326,0.704,0.935,20-25°C,60%
+Omeprazole,Omeprazole,40mg,delayed-release capsule,purple/pink,capsule,40,Dr. Reddy's,93.32,authentic,190,0.225,0.738,0.81,20-25°C,60%
+Paracetamol,Acetaminophen,650mg,capsule,suspicious_white,oval,FAKE_TYLENOL,Unknown/Suspicious,31.13,counterfeit,37,0.716,0.332,0.54,Unknown,Unknown
+Paracetamol,Acetaminophen,500mg,tablet,suspicious_off-white,round,FAKE_P500,Unknown/Suspicious,21.54,counterfeit,20,0.675,0.275,0.447,Unknown,Unknown
+Paracetamol,Acetaminophen,650mg,tablet,suspicious_off-white,round,FAKE_P500,Unknown/Suspicious,38.64,counterfeit,11,0.851,0.411,0.589,Unknown,Unknown
+Aspirin,Acetylsalicylic Acid,500mg,enteric-coated,suspicious_white,round,FAKE_81,Unknown/Suspicious,19.06,counterfeit,32,0.668,0.554,0.473,Unknown,Unknown
+Aspirin,Acetylsalicylic Acid,325mg,tablet,suspicious_pink,oval,FAKE_81,Unknown/Suspicious,20.04,counterfeit,21,0.676,0.298,0.524,Unknown,Unknown
+Aspirin,Acetylsalicylic Acid,325mg,chewable tablet,suspicious_yellow,oval,FAKE_ASP,Unknown/Suspicious,25.13,counterfeit,12,0.812,0.503,0.528,Unknown,Unknown
+Ibuprofen,Ibuprofen,800mg,tablet,suspicious_orange,round,FAKE_200,Unknown/Suspicious,43.03,counterfeit,33,0.762,0.322,0.7,Unknown,Unknown
+Ibuprofen,Ibuprofen,800mg,tablet,suspicious_brown,round,FAKE_IBU,Unknown/Suspicious,43.89,counterfeit,30,0.78,0.333,0.45,Unknown,Unknown
+Ibuprofen,Ibuprofen,800mg,tablet,suspicious_white,caplet,FAKE_200,Unknown/Suspicious,33.22,counterfeit,45,0.621,0.4,0.649,Unknown,Unknown
+Amoxicillin,Amoxicillin,500mg,tablet,suspicious_white,oval,FAKE_250,Unknown/Suspicious,37.56,counterfeit,41,0.749,0.335,0.525,Unknown,Unknown
+Amoxicillin,Amoxicillin,250mg,capsule,suspicious_yellow,oval,FAKE_250,Unknown/Suspicious,18.38,counterfeit,32,0.807,0.25,0.412,Unknown,Unknown
+Amoxicillin,Amoxicillin,250mg,suspension,suspicious_white,capsule,FAKE_500,Unknown/Suspicious,38.36,counterfeit,37,0.83,0.218,0.367,Unknown,Unknown

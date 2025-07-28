@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma AI - Powering Trust in Medicine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Landing/Login Page -->
+    <div id="loginPage" class="page active">
+        <div class="landing-container">
+            <!-- Left Side - Login Form (40%) -->
+            <div class="login-section">
+                <div class="login-content">
+                    <div class="logo-section">
+                        <div class="logo-placeholder">⚕️</div>
+                        <h1 class="logo-title">Pharma AI</h1>
+                        <p class="logo-subtitle">Powering Trust in Medicine</p>
+                    </div>
+                    
+                    <div class="login-form-container">
+                        <h2>Welcome Back</h2>
+                        <p class="login-description">Sign in to your organization account</p>
+                        
+                        <form id="loginForm" class="login-form">
+                            <div class="form-group">
+                                <label class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="loginEmail" value="admin@citygeneral.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" id="loginPassword" value="admin123" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Organization Type</label>
+                                <select class="form-control" id="orgType">
+                                    <option value="">Select Type</option>
+                                    <option value="hospital">Hospital</option>
+                                    <option value="pharmacy">Pharmacy</option>
+                                    <option value="laboratory">Laboratory</option>
+                                    <option value="manufacturer">Manufacturer</option>
+                                    <option value="regulatory">Regulatory</option>
+                                </select>
+                            </div>
+                            <div class="form-actions">
+                                <a href="#" class="forgot-link">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width login-btn">Sign In</button>
+                        </form>
+                        
+                        <div class="demo-credentials">
+                            <p><strong>Demo Credentials:</strong></p>
+                            <small>Hospital: admin@citygeneral.com / admin123</small><br>
+                            <small>Pharmacy: manager@medsupply.com / admin123</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Side - About Content (60%) -->
+            <div class="about-section">
+                <div class="about-content">
+                    <h2>About Us: Pharma AI – Powering Trust in Medicine</h2>
+                    
+                    <p>Pharma AI was founded by a passionate team of healthcare technologists, pharmacists, and data scientists with a single mission: to ensure absolute trust and safety in every medicine used worldwide. We recognized the urgent need for transparent, intelligent pharmaceutical verification as counterfeit and compromised drugs pose a growing threat to patients, healthcare institutions, and the global supply chain.</p>
+                    
+                    <h3>Our Purpose</h3>
+                    <p>We believe every dose matters—and that technology should empower hospitals, pharmacies, regulators, and manufacturers to work together in safeguarding medicine quality from production to patient.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To build a collaborative, digitally empowered ecosystem where every organization can instantly verify medicine authenticity using AI, monitor storage safety in real-time with IoT sensors, and share and access trustworthy medicine data through community-powered feedback.</p>
+                    
+                    <h3>What Sets Us Apart:</h3>
+                    <ul>
+                        <li><strong>Multi-Organization Collaboration:</strong> Unites hospitals, pharmacies, manufacturers, regulators, and testing labs on one secure platform</li>
+                        <li><strong>State-of-the-art Technology:</strong> Harnesses free AI, advanced sensors, and real-time analytics</li>
+                        <li><strong>Community Trust Network:</strong> Crowdsources intelligence for faster, wider fraud detection and prevention</li>
+                        <li><strong>Open & Accessible:</strong> Built to scale globally, affordable for all, and easy to use</li>
+                    </ul>
+                    
+                    <h3>Our Commitment</h3>
+                    <p>We are committed to constant innovation, user privacy, and building tools that make a genuine impact—so every healthcare professional, patient, and partner can trust their medicines, every time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Page -->
+    <div id="dashboardPage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span id="orgNameDisplay">Organization</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link active">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="dashboard-header">
+                    <h2>Organization Dashboard</h2>
+                    <div class="breadcrumb">
+                        <span>Home</span> > <span>Dashboard</span>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📦</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="totalMedicines">0</div>
+                            <div class="stat-label">Medicines Verified</div>
+                            <div class="stat-trend positive">+12% this week</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="avgTrustScore">0</div>
+                            <div class="stat-label">Avg Trust Score</div>
+                            <div class="stat-trend positive">+0.2 this month</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💬</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="totalFeedback">0</div>
+                            <div class="stat-label">Network Reviews</div>
+                            <div class="stat-trend">Community feedback</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌡️</div>
+                        <div class="stat-info">
+                            <div class="stat-number" id="activeSensors">0</div>
+                            <div class="stat-label">Active Sensors</div>
+                            <div class="stat-trend">All operational</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-modules">
+                    <div class="module-preview" onclick="navigateToPage('ai-inspection')">
+                        <div class="module-icon">🔍</div>
+                        <h3>AI Inspection</h3>
+                        <p>Upload medicine images for AI-powered authenticity verification</p>
+                        <div class="module-status">
+                            <span class="status status--success">Ready</span>
+                        </div>
+                    </div>
+                    <div class="module-preview" onclick="navigateToPage('iot-sensors')">
+                        <div class="module-icon">📊</div>
+                        <h3>IoT Sensors</h3>
+                        <p>Monitor environmental conditions in real-time</p>
+                        <div class="module-status">
+                            <span class="status status--success">Active</span>
+                        </div>
+                    </div>
+                    <div class="module-preview" onclick="navigateToPage('trust-network')">
+                        <div class="module-icon">🤝</div>
+                        <h3>Trust Network</h3>
+                        <p>View community trust scores and submit feedback</p>
+                        <div class="module-status">
+                            <span class="status status--info">Connected</span>
+                        </div>
+                    </div>
+                    <div class="module-preview" onclick="navigateToPage('chatbot')">
+                        <div class="module-icon">💬</div>
+                        <h3>AI Chatbot</h3>
+                        <p>Get instant medicine information and verification help</p>
+                        <div class="module-status">
+                            <span class="status status--success">Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-activity">
+                    <h3>Recent Activity</h3>
+                    <div id="recentActivityList" class="activity-list">
+                        <!-- Activity items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- AI Inspection Page -->
+    <div id="aiInspectionPage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span>AI Inspection</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link active">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay2" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" onclick="handleLogout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <h2>AI Medicine Inspection</h2>
+                    <div class="breadcrumb">
+                        <a href="#dashboard">Home</a> > <span>AI Inspection</span>
+                    </div>
+                </div>
+
+                <div class="inspection-grid">
+                    <div class="upload-section card">
+                        <div class="card__body">
+                            <h3>Upload Medicine Image</h3>
+                            <div class="upload-area" id="uploadArea">
+                                <div class="upload-placeholder">
+                                    <div class="upload-icon">📷</div>
+                                    <p>Click to upload or drag medicine photo here</p>
+                                    <small>Supports JPG, PNG up to 10MB</small>
+                                </div>
+                            </div>
+                            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                            <button class="btn btn--primary btn--full-width" id="uploadBtn">Upload Image</button>
+                        </div>
+                    </div>
+
+                    <div class="analysis-results card">
+                        <div class="card__header">
+                            <h3>AI Analysis Results</h3>
+                        </div>
+                        <div class="card__body">
+                            <div id="analysisContent">
+                                <p class="text-secondary">Upload an image to see AI analysis results</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="verification-history">
+                    <h3>Verification History</h3>
+                    <div id="verificationHistory" class="history-list">
+                        <!-- History items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- IoT Sensors Page -->
+    <div id="iotSensorsPage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span>IoT Sensors</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link active">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay3" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" onclick="handleLogout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <h2>IoT Environmental Monitoring</h2>
+                    <div class="breadcrumb">
+                        <a href="#dashboard">Home</a> > <span>IoT Sensors</span>
+                    </div>
+                    <div class="page-actions">
+                        <button class="btn btn--secondary" id="refreshSensors">Refresh Data</button>
+                        <button class="btn btn--outline" id="exportData">Export Report</button>
+                    </div>
+                </div>
+
+                <div class="sensors-grid" id="sensorsGrid">
+                    <!-- Sensor cards will be populated by JavaScript -->
+                </div>
+
+                <div class="charts-section">
+                    <div class="chart-container card">
+                        <div class="card__header">
+                            <h3>Environmental Trends</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="chart-wrapper" style="position: relative; height: 400px;">
+                                <canvas id="environmentChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alerts-section">
+                    <h3>Recent Alerts</h3>
+                    <div id="alertsList" class="alerts-list">
+                        <!-- Alerts will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Trust Network Page -->
+    <div id="trustNetworkPage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span>Trust Network</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link active">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay4" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" onclick="handleLogout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Trust Network & Community Feedback</h2>
+                    <div class="breadcrumb">
+                        <a href="#dashboard">Home</a> > <span>Trust Network</span>
+                    </div>
+                    <div class="page-actions">
+                        <button class="btn btn--primary" id="submitFeedbackBtn">Submit Feedback</button>
+                    </div>
+                </div>
+
+                <div class="trust-overview">
+                    <div class="trust-stats">
+                        <div class="trust-score-section">
+                            <div class="trust-score-large" id="networkTrustScore">4.7</div>
+                            <div class="stars">★★★★★</div>
+                            <div class="trust-label">Network Trust Score</div>
+                        </div>
+                        <div class="trust-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Total Reviews</span>
+                                <span class="metric-value" id="totalReviews">0</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Partner Organizations</span>
+                                <span class="metric-value" id="partnerOrgs">0</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Verified Medicines</span>
+                                <span class="metric-value" id="verifiedMedicines">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trust-content">
+                    <div class="medicines-trust">
+                        <h3>Medicine Trust Scores</h3>
+                        <div id="medicinesTrustList" class="medicines-list">
+                            <!-- Medicine trust scores will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <div class="community-feedback">
+                        <h3>Community Reviews</h3>
+                        <div id="communityFeedbackList" class="feedback-list">
+                            <!-- Community feedback will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- AI Chatbot Page -->
+    <div id="chatbotPage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span>AI Assistant</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link active">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay5" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" onclick="handleLogout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <h2>AI Medicine Assistant</h2>
+                    <div class="breadcrumb">
+                        <a href="#dashboard">Home</a> > <span>AI Chatbot</span>
+                    </div>
+                    <div class="ai-status">
+                        <span class="status status--success">AI Online</span>
+                        <span class="ai-model">GPT-4 • Computer Vision</span>
+                    </div>
+                </div>
+
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- Chat messages will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <div class="image-upload-area">
+                            <button class="upload-button" id="chatUploadBtn">
+                                <span>📷</span>
+                                <span>Upload Image</span>
+                            </button>
+                            <input type="file" id="chatFileInput" accept="image/*" style="display: none;">
+                        </div>
+                        <div class="chat-input-wrapper">
+                            <input type="text" id="chatInput" class="chat-input" placeholder="Ask me about medicine verification...">
+                            <button class="send-button" id="sendChatBtn">
+                                <span>→</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="quick-actions">
+                        <button class="quick-action-btn" data-action="verify">Quick Verify</button>
+                        <button class="quick-action-btn" data-action="safety">Safety Check</button>
+                        <button class="quick-action-btn" data-action="identify">Identify Medicine</button>
+                        <button class="quick-action-btn" data-action="report">Generate Report</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Profile/Settings Page -->
+    <div id="profilePage" class="page hidden">
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="app-logo">
+                        <div class="header-logo">⚕️</div>
+                        <div class="header-text">
+                            <h1>Pharma AI</h1>
+                            <span>Profile & Settings</span>
+                        </div>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#dashboard" class="nav-link">🏠 Dashboard</a>
+                        <a href="#ai-inspection" class="nav-link">🔍 AI Inspection</a>
+                        <a href="#iot-sensors" class="nav-link">📊 IoT Sensors</a>
+                        <a href="#trust-network" class="nav-link">🤝 Trust Network</a>
+                        <a href="#chatbot" class="nav-link">💬 AI Chatbot</a>
+                        <a href="#profile" class="nav-link active">👤 Profile</a>
+                    </nav>
+                    <div class="header-actions">
+                        <span id="userNameDisplay6" class="user-name">User</span>
+                        <button class="btn btn--outline btn--sm" onclick="handleLogout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Organization Profile & Settings</h2>
+                    <div class="breadcrumb">
+                        <a href="#dashboard">Home</a> > <span>Profile</span>
+                    </div>
+                </div>
+
+                <div class="profile-grid">
+                    <div class="org-profile-section card">
+                        <div class="card__header">
+                            <h3>Organization Profile</h3>
+                            <button class="btn btn--secondary btn--sm" id="editProfileBtn">Edit Profile</button>
+                        </div>
+                        <div class="card__body">
+                            <div id="orgProfileDisplay">
+                                <!-- Organization profile will be populated -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="org-settings-section card">
+                        <div class="card__header">
+                            <h3>Settings</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="form-group">
+                                <label class="form-label">Notifications</label>
+                                <label class="checkbox-wrapper">
+                                    <input type="checkbox" id="notificationsEnabled" checked>
+                                    <span>Enable email notifications</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Data Sharing</label>
+                                <label class="checkbox-wrapper">
+                                    <input type="checkbox" id="dataSharing" checked>
+                                    <span>Share trust scores with network</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Auto Verification</label>
+                                <label class="checkbox-wrapper">
+                                    <input type="checkbox" id="autoVerification">
+                                    <span>Enable automatic medicine verification</span>
+                                </label>
+                            </div>
+                            <button class="btn btn--primary" id="saveSettingsBtn">Save Settings</button>
+                        </div>
+                    </div>
+
+                    <div class="team-management-section card">
+                        <div class="card__header">
+                            <h3>Team Management</h3>
+                            <button class="btn btn--secondary btn--sm" id="addUserBtn">Add User</button>
+                        </div>
+                        <div class="card__body">
+                            <div id="teamMembersList">
+                                <!-- Team members will be populated -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="data-management-section card">
+                        <div class="card__header">
+                            <h3>Data Management</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="data-actions">
+                                <button class="btn btn--outline" id="exportDataBtn">Export All Data</button>
+                                <button class="btn btn--outline" id="importDataBtn">Import Data</button>
+                                <button class="btn btn--outline" id="backupDataBtn">Backup Database</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Submit Community Feedback</h3>
+                <button class="modal-close" id="closeFeedbackModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="feedbackForm">
+                    <div class="form-group">
+                        <label class="form-label">Medicine Name</label>
+                        <select class="form-control" id="medicineSelect" required>
+                            <option value="">Select Medicine</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Rating</label>
+                        <div class="rating-input" id="ratingInput">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                        </div>
+                        <input type="hidden" id="selectedRating" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Comments</label>
+                        <textarea class="form-control" id="feedbackComment" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn--primary btn--full-width">Submit Feedback</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="notification" class="notification hidden">
+        <div class="notification-content">
+            <span id="notificationMessage"></span>
+            <button id="closeNotification">&times;</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

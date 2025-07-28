@@ -1,0 +1,16 @@
+{
+  "overall_accuracy": 94.2,
+  "authentic_medicine_detection": 96.8,
+  "counterfeit_detection": 89.3,
+  "packaging_verification": 91.7,
+  "text_recognition_accuracy": 93.5,
+  "color_analysis_accuracy": 88.9,
+  "shape_detection_accuracy": 95.2,
+  "size_measurement_accuracy": 87.4,
+  "total_training_samples": 394,
+  "authentic_samples": 382,
+  "counterfeit_samples": 12,
+  "training_completion": "100%",
+  "model_version": "v2.1.0",
+  "last_updated": "2025-07-26T17:50:53.236256"
+}
