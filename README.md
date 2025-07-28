@@ -50,7 +50,7 @@ Pharma AI solves this with an all-in-one, cloud-based platform:
 
 ## 📊 Live Demo
 
-> 🔗 **[Demo Link (Optional)]([https://your-demo-link.com](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5afc88de2630d32da562880123e63b17/3c1be1c8-d8bc-4db5-b251-f9b40a812305/index.html#))**  
+> 🔗 **[Demo Link (Optional)](https://your-demo-link.com](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5afc88de2630d32da562880123e63b17/3c1be1c8-d8bc-4db5-b251-f9b40a812305/index.html#))**  
 > 🎥 Walkthrough available in the `/demo` folder.
 
 ---
